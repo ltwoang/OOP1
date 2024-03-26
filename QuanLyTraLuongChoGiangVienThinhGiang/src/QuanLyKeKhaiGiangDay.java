@@ -74,7 +74,7 @@ public class QuanLyKeKhaiGiangDay {
 	    int soTietGiangDay = 0;
 	    for (int i = 0; i < soLuongMonHoc; i++) {
 	        MonHoc monHoc = danhSachMonHoc[i];
-	        soTietGiangDay += monHoc.getSoTietLyThuyet(); // Cộng dồn số tiết giảng dạy lý thuyết của từng môn
+	        soTietGiangDay += monHoc.getSoTietLyThuyet(); 
 	    }
 	    return soTietGiangDay;
 	}
